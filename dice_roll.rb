@@ -3,5 +3,6 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll
-  # code goes here
+  range  = (0...6)
+  andom_num = 1 +rand(range)
 end
